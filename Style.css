@@ -1,0 +1,10 @@
+.bg-div {
+    
+    background-image: url(./imag\ banner.jpg);
+    background-position-y: center;
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+       
+}
+
