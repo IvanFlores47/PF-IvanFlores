@@ -10,6 +10,57 @@
        
 }
 
+/*Index*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Montserrat:wght@200&family=Oswald:wght@200&family=Playfair+Display&display=swap');
+.parrafo h1{
+  font-family: 'Caveat', cursive;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Playfair Display', serif;
+}
+
+.parrafo p {
+  font-family: 'Caveat', cursive;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Playfair Display', serif;
+  font-size: x-large;
+}
+
+
+.buttons {
+  min-width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  
+}
+
+.buttons a {
+  margin-top: 50px;
+  text-decoration: none;
+  font-size: 28px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background: #314652;
+  color: #f1f1f1;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+  transition: all .4s ease-in-out;
+}
+
+.buttons a:hover {
+  transform: scale(1.2);
+}
+
+
+
+
+
 /*Trabajá con nosotros*/
 
 
@@ -102,6 +153,53 @@ section{
       width: 100%;
     }
   }
+
+  /*Promociones*/
+
+  @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+
+  .h2-galeria {
+    text-align: center;
+    color: white;
+    margin-bottom: -16px;
+    list-style: none;
+  }
+
+
+  .h2-galeria p{
+    font-family: 'Caveat', cursive;
+    text-decoration: none;
+  }
+
+  .h2-galeria a{
+    text-decoration: none;
+    color: rgb(253, 95, 3);
+  }
+
+  .h2-galeria a:hover {
+    background-color: rgb(255, 255, 255);
+  }
+
+  .galeriahistoria {
+      background-color: black;
+      display: flex;
+      overflow-y:auto;    
+  }
+
+  .cardhistoria {
+    margin-right: 10px;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .cardhistoria img {
+    width: 202px;
+    object-fit: cover;
+    height: 350px;
+  }
+
+
 
 
 
